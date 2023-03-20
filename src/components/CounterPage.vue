@@ -41,6 +41,7 @@ export default {
 .container {
   background: linear-gradient(120deg, #272626 37%, #673736, #db5a56);
   /* background-color: #d9df7e;  */
+
   padding-top: 40px;
   padding-bottom: 60px;
   border-radius: 20px;
@@ -88,5 +89,12 @@ h3,
 h5 {
   margin: 5px 0 15px 0;
   font-family: 'Righteous', cursive;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: 90%;
+    margin: auto;
+  }
 }
 </style>
